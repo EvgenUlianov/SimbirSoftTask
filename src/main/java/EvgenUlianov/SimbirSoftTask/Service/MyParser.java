@@ -1,4 +1,4 @@
-package EvgenUlianov.SimbirSoftTask.Service;
+package EvgenUlianov.SimbirSoftTask.service;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

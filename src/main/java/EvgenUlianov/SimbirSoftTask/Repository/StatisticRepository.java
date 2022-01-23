@@ -1,6 +1,6 @@
-package EvgenUlianov.SimbirSoftTask.Repository;
+package EvgenUlianov.SimbirSoftTask.repository;
 
-import EvgenUlianov.SimbirSoftTask.Model.StatisticEntity;
+import EvgenUlianov.SimbirSoftTask.model.StatisticEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

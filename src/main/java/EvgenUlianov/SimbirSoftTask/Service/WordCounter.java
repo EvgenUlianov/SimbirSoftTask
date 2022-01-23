@@ -1,4 +1,4 @@
-package EvgenUlianov.SimbirSoftTask.Service;
+package EvgenUlianov.SimbirSoftTask.service;
 
 import java.util.List;
 import java.util.Map;

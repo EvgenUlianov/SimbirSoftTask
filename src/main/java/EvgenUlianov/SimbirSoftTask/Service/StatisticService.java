@@ -1,7 +1,7 @@
-package EvgenUlianov.SimbirSoftTask.Service;
+package EvgenUlianov.SimbirSoftTask.service;
 
-import EvgenUlianov.SimbirSoftTask.Model.StatisticEntity;
-import EvgenUlianov.SimbirSoftTask.Repository.RepositoryManager;
+import EvgenUlianov.SimbirSoftTask.model.StatisticEntity;
+import EvgenUlianov.SimbirSoftTask.repository.RepositoryManager;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
-package EvgenUlianov.SimbirSoftTask.Repository;
+package EvgenUlianov.SimbirSoftTask.repository;
 
-import EvgenUlianov.SimbirSoftTask.Model.RequestInfo;
-import EvgenUlianov.SimbirSoftTask.Model.StatisticEntity;
+import EvgenUlianov.SimbirSoftTask.model.RequestInfo;
+import EvgenUlianov.SimbirSoftTask.model.StatisticEntity;
 import lombok.AllArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Repository;

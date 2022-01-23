@@ -1,4 +1,4 @@
-package EvgenUlianov.SimbirSoftTask.Model;
+package EvgenUlianov.SimbirSoftTask.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.AllArgsConstructor;

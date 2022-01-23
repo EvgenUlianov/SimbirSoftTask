@@ -1,8 +1,8 @@
 package EvgenUlianov.SimbirSoftTask;
 
 
-import EvgenUlianov.SimbirSoftTask.Model.StatisticEntity;
-import EvgenUlianov.SimbirSoftTask.Service.StatisticService;
+import EvgenUlianov.SimbirSoftTask.model.StatisticEntity;
+import EvgenUlianov.SimbirSoftTask.service.StatisticService;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
