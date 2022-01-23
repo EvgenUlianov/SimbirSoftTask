@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "my.delimiter.lenght.word",
+      "type": "java.lang.Integer"
+      "description": "Description for my.delimiter.lenght.word."
+  }
+] }

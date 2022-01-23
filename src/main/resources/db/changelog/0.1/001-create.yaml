@@ -1,0 +1,51 @@
+databaseChangeLog:
+  -  changeSet:
+       id:  "001-create"
+       author:  "username"
+       changes:
+         -  createTable:
+              tableName:  request_info
+              columns:
+                -  column:
+                     name:  id
+                     type:  bigint
+                     autoIncrement:  true
+                     constraints:
+                       primaryKey:  true
+                       nullable:  false
+                -  column:
+                     name:  date_time
+                     type:  smalldatetime
+                     constraints:
+                       nullable:  false
+                -  column:
+                     name:  url
+                     type:  varchar(511)
+                     constraints:
+                       nullable:  false
+         -  createTable:
+              tableName:  statistic_entity
+              columns:
+                -  column:
+                     name:  id
+                     type:  bigint
+                     autoIncrement:  true
+                     constraints:
+                       primaryKey:  true
+                       nullable:  false
+                -  column:
+                     name:  request_info
+                     type:  bigint
+                     constraints:
+                       nullable:  false
+                       referencedTableName: request_info
+                -  column:
+                     name:  word
+                     type:  varchar(255)
+                     constraints:
+                       nullable:  false
+                -  column:
+                     name:  count
+                     type:  int
+                     constraints:
+                       nullable:  false
